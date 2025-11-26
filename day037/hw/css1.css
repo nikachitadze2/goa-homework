@@ -1,0 +1,25 @@
+.perent{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.child{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
+#container{
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    /* Content – ელემენტის შიგთავსი (ტექსტი, სურათი და სხვ.)
+
+Padding – შიდა სივრცე content-ისა და border-ის შორის.
+
+Border – ჩარჩო, 
+
+Margin – გარე სივრცე, აშორებს ელემენტს სხვა ელემენტებისგან. */
+}

@@ -1,0 +1,36 @@
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+
+
+/* ul{
+    list-style-type: georgian;
+    list-style-image:url(https://cdn-icons-png.flaticon.com/512/1160/1160358.png); ;
+    list-style-position: inside;
+    list-style-position: outside;
+    list-style: armenian outside;
+}  */
+
+/* .M{
+    list-style-image: url(https://cdn-icons-png.flaticon.com/512/1160/1160358.png) width="200px";
+
+
+}
+
+.N{
+    list-style-type: georgian;
+    list-style-position: inside;
+}
+
+
+.A{
+    list-style: armenian outside;
+} */

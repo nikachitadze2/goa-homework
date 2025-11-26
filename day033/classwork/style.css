@@ -1,0 +1,25 @@
+a{
+    font-size: 50px;
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+    border: 7px sol black;
+}
+
+p:hover{
+    background-color: blue;
+    color: aqua;
+    transition: 1s;
+}

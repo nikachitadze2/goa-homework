@@ -1,0 +1,11 @@
+
+
+
+num1 = int( input("ჩაწერე რიცხვი"))
+num2 = int( input("ჩაწერე რიცხვი"))
+print(num1 > num2)
+print(num1 == num2)
+print(num1 < num2)
+print(num1 >= num2)
+print(num1 <= num2)
+# buliani gamoitans true or false

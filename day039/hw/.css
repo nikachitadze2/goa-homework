@@ -1,0 +1,7 @@
+/* display: flex;გარდაქმნის ელემენტებს ყუთებივით 
+    flex-direction: row;ერთ ხაზში განლაგდება
+    flex-wrap: wrap; თუ არასაკმარისი ადგილია გადადიან ახალ ხაზზე 
+    justify-content: space-between; თანაბარი დაშორება 
+    align-items: center; ვერტიკალურად ცენტრში აწყობა 
+    gap: 20px; ელემენტებს შორის სივრცე  */
+
