@@ -3,7 +3,7 @@ students_scores = {
     "ნინო": 92,
     "ლაშა": 78,
     "მარიამი": 95,
-    "დათო": 88
+    "დათო": 88,
 }
 
 best = max(students_scores, key=students_scores.get)
