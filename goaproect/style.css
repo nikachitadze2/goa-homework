@@ -3,19 +3,24 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: center;  
   justify-content: center;
+
+  /*   display: flex; ელემენტებს ალაგებს ჰორიზონტარულად განლაგებით
+  align-items: center; ცენტრავს
+  justify-content: center; ცენტრავს
+   ამით ჩვენ ვცენტრავთ შვილ ელემენტს */   
 }
 
-.card {
+.a {
   width: 300px;
   background-color: white;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0);
 }
 
-.top {
+.b {
   background-color: #37cfd9;
   height: 120px;
   border-top-left-radius: 20px;
@@ -23,7 +28,7 @@ body {
   position: relative;
 }
 
-.avatar {
+.e {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -43,23 +48,29 @@ h2 span {
   font-size: 16px;
 }
 
-.location {
+/* span ჰ2 ის ყველა ელემენტი */
+
+.c {
   color: gray;
   margin-bottom: 20px;
 }
 
-.stats {
+.d {
   display: flex;
   justify-content: space-around;
   border-top: 1px solid #ddd;
   padding: 15px 0;
+
+
+/*განლაგდება ერთ ხაზზე მარცხნიან მარჯნივ
+გვერდებთან სივრცე იქნება ნახევარი შუაში სრული */
 }
 
-.stats h3 {
+.d h3 {
   margin: 0;
 }
 
-.stats p {
+.d p {
   margin: 0;
   color: gray;
   font-size: 12px;

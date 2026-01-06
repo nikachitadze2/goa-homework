@@ -7,13 +7,18 @@ body {
   justify-content: center;
 }
 
-.card {
+.a {
   background-color: white;
   width: 320px;
   border-radius: 15px;
   text-align: center;
   box-shadow: 0px 20px 40px rgba(0,0,0,0.15);
   overflow: hidden;
+
+  /*overflow: hidden; ეს არ ვიცოდი და ეხლა ვისწავლე კეთევისას
+   თუ შიგნით არსებული ტექსტი, სურათი ან სხვა ელემენტი ზედმეტად დიდია,
+    ის ნაწილი, რომელიც გარეთ გადის: */
+    
 }
 
 .top {
@@ -28,13 +33,13 @@ h2 {
   margin: 20px 0 10px;
 }
 
-.description {
+.b {
   font-size: 14px;
   color: gray;
   padding: 0 20px;
 }
 
-.plan {
+.c {
   background-color: #f5f7ff;
   margin: 20px;
   padding: 15px;
@@ -44,30 +49,30 @@ h2 {
   align-items: center;
 }
 
-.plan-left {
+.c-left {
   display: flex;
   align-items: center;
 }
 
-.icon {
+.d {
   font-size: 24px;
   margin-right: 10px;
 }
 
-.plan p {
+.c p {
   margin: 5px 0 0;
   color: gray;
   font-size: 14px;
 }
 
-.plan a {
+.c a {
   color: #382ae1;
   font-size: 14px;
   text-decoration: none;
   font-weight: bold;
 }
 
-.pay-btn {
+.m {
   background-color: #382ae1;
   color: white;
   border: none;
@@ -79,21 +84,21 @@ h2 {
   margin-bottom: 15px;
 }
 
-.pay-btn:hover {
+.m:hover {
     background-color: #4d3fe9;
 }
 
-.cancel {
+.h {
   color: gray;
   font-size: 14px;
   margin-bottom: 20px;
   cursor: pointer;
 }
 
-.cancel:hover {
+.h:hover {
     color: black;
 }
 
-a:hover {
+.y:hover {
     color: #4d3fe9;
 }
