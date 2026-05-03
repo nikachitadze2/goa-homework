@@ -1,0 +1,82 @@
+<!-- 1) მომხმარებელს შემოაყვანინე რიცხვი და შეინახე ცვლადში შემდეგ შეამოწმე თუ ეგ რიცხვი არის დადებითი კონსოლში გამოიტანე "Positive" თუ არის უარყოფითი "Negative" და თუ არის 0 ის ტოლი "Zero"
+2) კომენტარებით მიუწერეთ გვერდზე თუ რა იქნება თითოეულის შედეგი:
+if ("hello") {
+  console.log("A");
+}
+
+if (0) {
+  console.log("B");
+}
+
+if ([]) {
+  console.log("C");
+}
+
+if ("") {
+  console.log("D");
+}
+3) რა იქნება შედეგი :
+console.log(false || "Hello"); 
+console.log(0 && "World");
+console.log(null || 5 || "Text");
+console.log("" && 100);
+
+4) დაწერე პროგრამა, რომელიც ამოწმებს:
+
+მომხმარებელს აქვს საკმარისი თანხა (hasMoney)
+პროდუქტი არის ხელმისაწვდომი (inStock)
+
+👉 თუ ორივე მართალია → "Purchase successful"
+👉 სხვა შემთხვევაში → "Cannot purchase"
+
+5)დაწერე კოდი, რომელიც ამოწმებს:
+
+მომხმარებლის ასაკი არის 18-ზე მეტი
+ან აქვს სტუდენტის სტატუსი (isStudent)
+
+👉 თუ რომელიმე პირობა შესრულდა → "Discount applied"
+👉 სხვა შემთხვევაში → "No discount" -->
+
+<!-- 
+if ("hello") {
+  console.log("A"); // დაიბეჭდება "A" ("hello" არის truthy)
+}
+
+if (0) {
+  console.log("B"); // არ დაიბეჭდება (0 არის falsy)
+}
+
+if ([]) {
+  console.log("C"); // დაიბეჭდება "C" ([] არის truthy)
+}
+
+if ("") {
+  console.log("D"); // არ დაიბეჭდება (ცარიელი სტრინგი "" არის falsy)
+} -->
+
+
+<!-- 3) რა იქნება შედეგი :
+console.log(false || "Hello"); truthy 
+console.log(0 && "World");falsy
+console.log(null || 5 || "Text");truthy 
+console.log("" && 100);falsy --> 
+
+<!-- 
+let hasMoney = true;
+let inStock = true;
+
+if (hasMoney && inStock) {
+  console.log("Purchase successful");
+} else {
+  console.log("Cannot purchase");
+} -->
+
+
+<!-- let age = 20;
+let isStudent = false;
+
+if (age > 18 || isStudent) {
+  console.log("Discount applied");
+} else {
+  console.log("No discount");
+} -->

@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #9cd3ff;
+  border-radius: 50%;
+  animation: animateCircle 2s ease-in infinite alternate;
+}
+
+@keyframes animateCircle {
+  0% {
+    transform: translateX(-150px) scale(1);
+  }
+  100% {
+    transform: translateX(150px) scale(3);
+
+  }
+}

@@ -1,0 +1,13 @@
+.l{
+    width: 40px;
+    height: 40px;
+    background:blue;
+    border-radius: 50%;
+    position: relative;
+    animation: k 3s forwards;
+}
+
+@keyframes k {
+    from{ left: 0; transform: scale(1);}
+    to{ left: 300px; transform: scale(2);}
+}

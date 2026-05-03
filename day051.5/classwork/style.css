@@ -1,0 +1,21 @@
+.vv{
+    width: 39px;
+    height: 30px;
+    background:blue;
+    border-radius: 50%;
+    position: relative;
+    animation: gg 5s linear forwards;
+
+}
+
+
+@keyframes gg {
+    from{
+        left: 0px;
+        transform: scale(1);
+}
+to{
+    left: 400px;
+    transform: scale(4);
+}
+}
